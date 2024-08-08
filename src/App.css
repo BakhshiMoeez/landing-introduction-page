@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.main-app-continer{
+  background-color: var(--var-bg);
+  font-family: var(--var-font-family);
+  color: var(--var-font-clr);
+}

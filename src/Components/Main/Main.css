@@ -1,0 +1,68 @@
+.parent-grid{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(6, auto);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+}
+
+
+.image-main-container{
+    grid-area: 1 / 1 / 3 / 7;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 3 / 1 / 5 / 7;
+    /* background-color: blue; */
+}
+
+.introduction-sub-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects-main-container {
+    grid-area: 5 / 1 / 7 / 7;
+    /* background-color: rosybrown; */
+}
+
+.skills-main-container{
+    grid-area: 5 / 1 / 7 / 7;
+    /* background-color: rgb(114, 114, 169); */
+}
+
+.image-main-background {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid hsl(207, 90%, 61%); */
+    border: 3px solid gray;
+    border-radius: 50%;
+}
+
+.image-main-background img{
+    width: 130px;
+    border-radius: 50%;
+}
+
+.intro-name h1{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.intro-description h3 {
+    /* font-weight: bold; */
+    color: gray;
+    font-size: 1rem;
+}
